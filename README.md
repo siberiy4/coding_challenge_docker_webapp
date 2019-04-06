@@ -1,4 +1,4 @@
-# -coding_challenge_docker_webapp
+# coding_challenge_docker_webapp
 
 ## 概要
 wantedlyの2019夏のインターンの応募課題
