@@ -3,5 +3,10 @@
 ## 概要
 wantedlyの2019夏のインターンの応募課題
 
-GoでAPI作って、dockerで公開しよう
+GoでAPI作って、dockerを使って公開しよう
+
+
+```
+curl -XGET -H 'Content-Type:application/json' http://52.192.48.108/
+```
 

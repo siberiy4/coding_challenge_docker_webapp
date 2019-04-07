@@ -1,4 +1,5 @@
-道筋だけ考えておく
+道筋と参考(コピぺしたサイト)
+
 
 Goを書いたことはないのでA Tour of Goを少しやって、
 
@@ -58,6 +59,26 @@ ploblem1.goに書いた
 あとはalpineあたりにマウントしてハブに出も上げよう
 
 
+day2
+
+ビルドしたバイナリを別のイメージにコピーするのなんだっけってずっとなっていたが、odan先輩が教えてくれた。
+multi stage build
+docker ちょっと調べたときにも見たし、サイバーでも聞いたはずなのになんで忘れるか・・・。
+バイナリを乗せるimageは選定するらしいが、今回はalpineでいいと思う
+
+
+参考：
+https://qiita.com/ight/items/a9f69d4617f17e2c2f21
+https://qiita.com/minamijoyo/items/711704e85b45ff5d6405
+
+alpine はちょっと特殊なので
+https://qiita.com/katoken-0215/items/f3a502fe0c2044709012
+
+
+https://hub.docker.com/r/yokanyukari/wantedsummer2019
+
+docker hubには登録した
+
 ## 2
 GIPでアクセスできる場所にコンテナおいて、port80でcurl
 つまりファイアウォールの中の部サバはダメ
@@ -73,6 +94,16 @@ PaaSを使ったことないので、ふつうのEC2借りてdockerの設定の�
 コンテナは問1で作ったので、docker pullしたりして、
 コンテナを起動、port フォワードすればできそう
 
+https://qiita.com/tifa2chan/items/a58e34019d4f10097a4d
+
+`
+docker run --name wanted -d -p 80:8080   yokanyukari/wantedsummer2019
+`
+で終わり
+
 
 ## 3
 気力をだせ
+
+
+https://qiita.com/t0w4/items/e886a514559cdb295600
