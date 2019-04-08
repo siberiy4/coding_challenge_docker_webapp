@@ -110,6 +110,16 @@ docker run --name wanted -d -p 80:8080   yokanyukari/wantedsummer2019
 
 https://qiita.com/t0w4/items/e886a514559cdb295600
 
-サーバは用意した。
 
-13.115.155.181
+
+### day3
+
+https://qiita.com/muroya2355/items/d48c384a4a82c7ed34ae
+
+https://qiita.com/hiro9/items/e6e41ec822a7077c3568
+
+https://qiita.com/mztnnrt/items/8f671b39269b68e9ef5d
+
+
+これがGoでSQL触るやつ
+https://qiita.com/mztnnrt/items/eaa4843b2bb3f7bdaecd
