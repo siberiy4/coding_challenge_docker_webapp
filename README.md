@@ -29,3 +29,7 @@ curl -XGET -H 'Content-Type:application/json' http://52.192.48.108/
 ```
 
 ## 課題３
+
+DBやdocker-composeを扱ったことがなかったのでやりかたを調べたかったが、5限までの授業が多く時間が足りずに終わってしまった。
+
+docker-composeの仕組みが分かっていなかったのが一番の理由だと思う。

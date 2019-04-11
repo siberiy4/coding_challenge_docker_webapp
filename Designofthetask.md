@@ -123,3 +123,6 @@ https://qiita.com/mztnnrt/items/8f671b39269b68e9ef5d
 
 これがGoでSQL触るやつ
 https://qiita.com/mztnnrt/items/eaa4843b2bb3f7bdaecd
+
+
+1~5限はしんどい
